@@ -1,0 +1,59 @@
+/*************** Base styles ****************/
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	padding: 5px 20px 5px 20px;
+	border: 1px solid black;
+	margin: 0px;
+	text-align: right;
+}
+
+p {
+	text-align: justify;
+	padding: 10px;
+
+}
+
+/* Responsive Framework */
+
+.row {
+	width: 100%;
+}
+
+/*************** Large Devices only ****************/
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+		border: 1px solid black;
+		margin: 15px;
+		width: 33.33%;
+	}
+
+}
+
+/*************** Medium Devices only ****************/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		float: left;
+		border: 1px solid black;
+		width: 50%;
+	}
+		.col-md-12 {
+		float: left;
+		border: 1px solid black;
+		width: 100%;
+	}
+
+
+
+
+
+}
